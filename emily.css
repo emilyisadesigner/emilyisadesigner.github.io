@@ -21,7 +21,11 @@ ul {
   margin-bottom: 0;
 }
 
-h1, h2, h3, h4, li {
+h1,
+h2,
+h3,
+h4,
+li {
   font-family: 'Playfair Display', serif;
 }
 
@@ -100,7 +104,8 @@ ul li:last-child {
   padding: 60px 0 60px 0;
 }
 
-.values h4, .strengths h4 {
+.values h4,
+.strengths h4 {
   margin-top: 0;
 }
 
@@ -133,12 +138,15 @@ ul li:last-child {
 /* Things will switch to a stacked layout below this breakpoint, so we don't
    want to force heights. Also vh is bad news on mobile. */
 @media (min-width: 550px) {
-  html, body, .page {
+
+  html,
+  body,
+  .page {
     height: 100%;
   }
 
   .nav li {
-    display: list-item;
+    display: inline;
   }
 
   .container {
@@ -149,7 +157,8 @@ ul li:last-child {
     height: calc(100vh - 185px);
   }
 
-  .values h4, .strengths h4 {
+  .values h4,
+  .strengths h4 {
     margin: 0;
   }
 
