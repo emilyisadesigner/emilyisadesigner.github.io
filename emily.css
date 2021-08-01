@@ -95,6 +95,7 @@ nav {
 .nav li {
   font-size: 18px;
   display: inline;
+  margin-left: 18px;
 }
 
 .nav-list {
