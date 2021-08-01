@@ -5,15 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Barlow", sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  color: #787878;
-  background: #fff;
-  text-rendering: optimizeLegibility;
-}
-
+/*
 ul li {
   margin: 0 1.5rem 0 0;
 }
@@ -30,28 +22,15 @@ a.active {
   color: #2e2e2e;
 }
 
-nav {
-  padding: 2.5rem 0 2.5rem 0;
-}
-nav ul {
-  display: flex;
-  justify-content: flex-start;
-}
-nav li {
-  font-size: 1.25rem;
-}
-nav li:nth-child(2) {
-  margin: 0;
-}
 
 #highlight {
   color: #ea8478;
   font-size: 1.25rem;
 }
-
+/*
 .gallery {
   padding: 0 0 4rem 0;
-}
+}*/
 
 .img-container {
   width: 100%;
