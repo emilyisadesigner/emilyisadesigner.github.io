@@ -93,6 +93,10 @@ nav {
   color: #D1D9AE;
 }
 
+.nav button {
+  border-radius: 0;
+}
+
 .nav li {
   font-size: 18px;
   display: inline;
