@@ -74,6 +74,11 @@ nav {
   width: 95%;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav h3 {
   font-size: 24px;
   margin-top: 0;
@@ -86,11 +91,6 @@ nav {
 
 .nav h3 a:hover {
   color: #D1D9AE;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: space-between;
 }
 
 .nav li {
