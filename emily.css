@@ -15,7 +15,8 @@ body {
 h2,
 h3,
 h4,
-a {
+a,
+button {
   font-family: 'Playfair Display SC', serif;
 }
 
@@ -49,15 +50,13 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-
-a {
+a, button {
   color: #35313C;
 }
 
 ul {
   margin-bottom: 0;
 }
-
 
 .values row {
   padding-bottom: 10px;
@@ -95,6 +94,11 @@ nav {
 
 .nav button {
   border-radius: 0;
+  font-weight: 400;
+  padding: 0;
+  display: inline;
+  line-height: inherit;
+  height: 26px;
 }
 
 .nav li {
@@ -186,7 +190,7 @@ nav {
 .button {
   border: none;
   text-transform: none;
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -201,7 +205,7 @@ nav {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-align: right;
@@ -211,6 +215,7 @@ nav {
 .popover-content a {
   text-decoration: none;
   display: block;
+  padding: 5px 10px;
 }
 
 /* Change color of dropdown links on hover */
