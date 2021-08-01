@@ -3,7 +3,8 @@
   line-height: 1.65;
 }
 
-.bounce-effect-wrapper a {
+.bounce-effect-wrapper a,
+.bounce-effect-wrapper button {
   margin: 0 0 20px;
   position: relative;
   overflow: hidden;
@@ -11,9 +12,10 @@
   color: #342a2a;
 }
 
-.bounce-effect-wrapper a::after {
+.bounce-effect-wrapper a::after,
+.bounce-effect-wrapper button::after {
   content: "";
-  background: #D1D9AE;
+  background: #d1d9ae;
   position: absolute;
   left: 12px;
   bottom: -6px;
@@ -22,7 +24,8 @@
   z-index: -1;
 }
 
-.bounce-effect-wrapper a:hover:after {
+.bounce-effect-wrapper a:hover:after,
+.bounce-effect-wrapper button:hover:after {
   left: 0;
   bottom: -2px;
   width: 100%;
@@ -30,7 +33,8 @@
 }
 
 @media (min-width: 550px) {
-  .bounce-effect-wrapper a::after {
+  .bounce-effect-wrapper a::after,
+  .bounce-effect-wrapper button::after {
     transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
   }
 }
