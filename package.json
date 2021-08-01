@@ -1,0 +1,23 @@
+{
+  "name": "emilane.github.io",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "kkato.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilane/emilane.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilane/emilane.github.io/issues"
+  },
+  "homepage": "https://github.com/emilane/emilane.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
