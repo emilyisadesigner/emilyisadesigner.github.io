@@ -1,11 +1,13 @@
 
 .img-container {
+  display: inline-flex;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .img-container:hover .img-content-hover {
-  display: block;
+
 }
 
 img {
