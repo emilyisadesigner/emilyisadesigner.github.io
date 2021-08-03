@@ -8,11 +8,12 @@ body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Playfair Display", serif;
+  font-family: "Lato", san-serif;
   color: #35313C;
   padding-bottom: 15px;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -22,11 +23,13 @@ button {
   letter-spacing: 1px;
 }
 
-h2 {
+
+h1, h2 {
   font-weight: 400;
   font-style: italic;
   text-align: left;
 }
+
 
 h3 {
   font-weight: 700;
@@ -48,32 +51,23 @@ h6 {
   margin-bottom: 10px;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-}
 
-a, button {
+a {
   color: #35313C;
 }
 
+
 ul {
   margin-bottom: 0;
+  font-family: "Playfair Display", serif;
 }
 
-.values row {
-  padding-bottom: 10px;
-}
 
 nav {
   padding-top: 1%;
   padding-bottom: 3%;
 }
 
-.container {
-  max-width: 1600px;
-  /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
-  width: 95%;
-}
 
 .nav {
   display: flex;
@@ -128,8 +122,18 @@ nav {
   font-size: 18px;
 }
 
+.values row {
+  padding-bottom: 10px;
+}
+
 .strengths li {
   font-size: 18px;
+}
+
+.container {
+  max-width: 1600px;
+  /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
+  width: 95%;
 }
 
 /* Some mobile-specific layout tweaks */
