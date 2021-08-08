@@ -10,18 +10,11 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Lato", san-serif;
-<<<<<<< HEAD
-  color: #35313C;
-
-=======
 }
 
 .body {
     padding-bottom: 15px;
->>>>>>> ed02c9417b9bd70067257a565fb1c4a4a6784e46
 }
-
-
 
 h1,
 h2,
@@ -80,7 +73,7 @@ nav {
 
 .nav h3 {
   font-size: 24px;
-  margin-top: 1%;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -138,7 +131,6 @@ nav {
   max-width: 1600px;
   /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 95%;
-padding-bottom: 5%;
 }
 
 .resume-list-wrapper li {
@@ -232,7 +224,6 @@ button a {
   .container {
     width: 95%;
   }
-
 
   .body {
     height: calc(100vh - 185px);
