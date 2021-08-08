@@ -4,7 +4,8 @@
 }
 
 .yikes {
-  margin: 15px;
+  padding: 25px 25px 0px 25px;
+
 }
 
 
@@ -20,6 +21,7 @@
 .caption-container {
   display: flex;
   flex-direction: column;
+  padding: 0px;
 }
 
 
