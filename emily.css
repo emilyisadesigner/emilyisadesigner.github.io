@@ -135,7 +135,7 @@ nav {
   max-width: 1600px;
   /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 95%;
-  padding-bottom: 5%;
+padding-bottom: 5%;
 }
 
 /* Some mobile-specific layout tweaks */
