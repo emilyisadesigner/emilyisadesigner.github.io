@@ -1,24 +1,32 @@
-.wrapup {
+.row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+.yikes {
+  margin: 15px;
+}
+
 
 .img-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
+
 }
 
 .caption-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
+
 
 .captions {
   flex: 1;
 }
+
 .img-container:hover .img-content-hover {
   display: flex;
 }

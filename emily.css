@@ -4,17 +4,14 @@
 
 body {
   background-color: #FFF;
-  /*background-color: #FAF9F6;*/
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Lato", san-serif;
+  margin-bottom: 5%;
 }
 
-.body {
-    padding-bottom: 15px;
-}
 
 h1,
 h2,
