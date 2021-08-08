@@ -1,13 +1,26 @@
+.wrapup {
+  display: flex;
+  flex-direction: column;
+}
 
 .img-container {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
 }
 
-.img-container:hover .img-content-hover {
+.caption-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.captions {
+  flex: 1;
+}
+.img-container:hover .img-content-hover {
+  display: flex;
 }
 
 img {
@@ -22,4 +35,5 @@ img:hover {
 
 .img-content {
   font-size: 16px;
+  align-self: flex-start;
 }

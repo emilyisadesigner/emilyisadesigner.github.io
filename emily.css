@@ -10,8 +10,10 @@ body {
   font-weight: 400;
   font-family: "Lato", san-serif;
   color: #35313C;
-  padding-bottom: 15px;
+
 }
+
+
 
 h1,
 h2,
@@ -68,7 +70,6 @@ nav {
   padding-bottom: 3%;
 }
 
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -76,7 +77,7 @@ nav {
 
 .nav h3 {
   font-size: 24px;
-  margin-top: 0;
+  margin-top: 1%;
   margin-bottom: 0;
 }
 
@@ -134,6 +135,7 @@ nav {
   max-width: 1600px;
   /* change this to anything you want or remove it, but I have a big monitor and 80% is still a lot of screen space */
   width: 95%;
+  padding-bottom: 5%;
 }
 
 /* Some mobile-specific layout tweaks */
@@ -160,6 +162,7 @@ nav {
   .container {
     width: 95%;
   }
+
 
   .body {
     height: calc(100vh - 185px);
