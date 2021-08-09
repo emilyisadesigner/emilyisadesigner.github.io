@@ -21,7 +21,12 @@
 .captions {
   display: flex;
   flex-direction: column;
-  padding: 0px;
+  padding: 5px 25px;
+
+}
+
+.move {
+  padding-top: 40px;
 }
 
 .right {
