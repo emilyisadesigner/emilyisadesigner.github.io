@@ -1,32 +1,43 @@
-.row {
+.gallery {
   display: flex;
   flex-direction: row;
 }
-
 .yikes {
-  padding: 25px 25px 0px 25px;
-
-}
-
-
-.img-container {
+  margin: 25px;
   display: flex;
   flex-direction: column;
+}
+
+.shrink {
+  max-width: 75%;
+}
+
+.image {
   cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
-
 }
 
-.caption-container {
+.captions {
   display: flex;
   flex-direction: column;
   padding: 0px;
 }
 
+.right {
+  float: right;
+}
 
 .captions {
   flex: 1;
+}
+
+.captions h4 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  letter-spacing: 1;
+  font-style: italic;
+  margin-top: -5px;
 }
 
 .img-container:hover .img-content-hover {
