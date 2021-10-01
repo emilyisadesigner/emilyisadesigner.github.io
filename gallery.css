@@ -1,6 +1,7 @@
 .gallery {
   display: flex;
   flex-direction: row;
+  padding: 15px 0px 25px 0px;
 }
 .yikes {
   margin: 25px;
