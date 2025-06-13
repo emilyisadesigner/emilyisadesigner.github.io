@@ -15,9 +15,6 @@ body {
   font-family: Inter, sans-serif;
   color: var(--main-text);
   background-color: var(--bg-color);
-  padding: 3rem 1.5rem;
-  max-width: 42rem;
-  margin: 0 auto;
 }
 
 .about,
@@ -29,19 +26,16 @@ body {
 
 /* Typography */
 h1 {
-  font-size: 1.875rem;
-  margin: 0;
+  font-size: 1.5rem;
 }
 
 h2 {
   font-size: 1.25rem;
   line-height: 1.75rem;
-  margin: 0;
 }
 
 h3 {
   font-size: inherit;
-  margin: 0;
 }
 
 .text-secondary {
@@ -53,11 +47,28 @@ h3 {
   overflow: hidden;
 }
 
+/* HOME */
+body.home {
+  padding: 3rem 1.5rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
 /* Header */
+.home h1,
+.home h2,
+.home h3 {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
+}
+
+h1 {
+  font-size: 1.875rem;
 }
 
 .header .hi {
@@ -168,13 +179,44 @@ h3 {
   padding: 0;
 }
 
+/* PROJECTS */
+
+.projects h1,
+.projects h2,
+.projects section {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.projects h1,
+.projects h2 {
+  margin-bottom: 1rem;
+}
+
+.projects section,
+.project-image-container {
+  margin-bottom: 2rem;
+}
+
+.project-image-container {
+  max-width: 60rem;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.project-image-container img {
+  max-width: 100%;
+}
+
 /* Big screens */
 @media screen and (min-width: 640px) {
   body {
     padding: 6rem 1.5rem;
   }
 
-  h1 {
+  .header h1 {
     font-size: 3rem;
   }
 
@@ -190,7 +232,7 @@ h3 {
 
 /* Very big screens */
 @media screen and (min-width: 1280px) {
-  h1 {
+  .header h1 {
     font-size: 3.75rem;
   }
 }
