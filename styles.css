@@ -183,7 +183,8 @@ h1 {
 
 .projects h1,
 .projects h2,
-.projects section {
+.projects section,
+nav {
   max-width: 42rem;
   margin: 0 auto;
 }
@@ -209,6 +210,18 @@ h1 {
 .project-image-container img {
   max-width: 100%;
   max-height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: var(--main-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /* Big screens */
