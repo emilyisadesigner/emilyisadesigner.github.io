@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -74,6 +74,8 @@
 
     <div class="experience">
       <h2>Work Experience</h2>
+
+      <!-- Freelance -->
       <div class="entry">
         <div class="logo-section">
           <div class="logo-wrapper round"></div>
@@ -93,6 +95,28 @@
             Additionally, I collaborate with clients to understand their needs and provide project updates, manage my
             time efficiently to meet deadlines, and stay updated on the latest design trends and technologies to deliver
             contemporary and delightful web solutions.
+          </div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="logo-section">
+          <div class="logo-section">
+            <div class="logo-wrapper round"><img src="./assets/images/crms.png" alt="CRMS logo" /></div>
+          </div>
+        </div>
+        <div class="details-section">
+          <div class="header-section">
+            <div class="title">
+              <h3>Camden Rockport Middle School</h3>
+              <span class="subtitle">Special Education Paraeducator</span>
+            </div>
+            <div class="job-date text-secondary">January 2025 &ndash; present</div>
+          </div>
+          <div class="description-section">
+            As a fifth-grade special ed tech, I support students with diverse learning needs in and out of the classroom
+            setting. I work closely with special education teachers to implement individualized education plans (IEPs)
+            and provide personalized assistance to help students achieve their academic and social goals.
           </div>
         </div>
       </div>
@@ -182,42 +206,86 @@
         </div>
       </div>
 
-      <!-- Athena PSA -->
-      <div class="entry">
-        <div class="logo-section">
-          <div class="logo-wrapper round"><img src="./assets/images/athenahealth.png" alt="Athenahealth logo" /></div>
-        </div>
-        <div class="details-section">
-          <div class="header-section">
-            <div class="title">
-              <h3>athenahealth</h3>
-              <span class="subtitle">Senior Emerging Product Services Analyst</span>
+      <!-- Collapsible portion -->
+      <details>
+        <summary>More</summary>
+        <div class="collapsed-entries">
+          <!-- <details> and flexbox don't mix well -->
+
+          <!-- Athena PSA -->
+          <div class="entry">
+            <div class="logo-section">
+              <div class="logo-wrapper round">
+                <img src="./assets/images/athenahealth.png" alt="Athenahealth logo" />
+              </div>
             </div>
-            <div class="job-date text-secondary">July 2018 &ndash; November 2019</div>
+            <div class="details-section">
+              <div class="header-section">
+                <div class="title">
+                  <h3>athenahealth</h3>
+                  <span class="subtitle">Senior Emerging Product Services Analyst</span>
+                </div>
+                <div class="job-date text-secondary">July 2018 &ndash; November 2019</div>
+              </div>
+              <div class="description-section">
+                <ul>
+                  <li>
+                    Coded 17+ pharmaceutical ads per week in HTML and CSS for all major pharma companies and launched
+                    them in the epocrates mobile application.
+                  </li>
+                  <li>
+                    Managed the Salesforce instance for the Sales & Launch team, ensuring the team of 16 customer
+                    success managers had current deadlines and statuses.
+                  </li>
+                  <li>
+                    Managed ambiguity and inconsistencies surrounding the ad launch process while implementing process
+                    improvements and working closely with related teams to streamline interdisciplinary workflows.
+                  </li>
+                  <li>Streamlined ad launch for major pharma, cutting proofreading time by 35 hours per ad.</li>
+                  <li>
+                    Lead weekly Sales conference calls with the 15-person sales team to ensure advertisements are
+                    delivered on schedule.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="description-section">
-            <ul>
-              <li>
-                Coded 17+ pharmaceutical ads per week in HTML and CSS for all major pharma companies and launched them
-                in the epocrates mobile application.
-              </li>
-              <li>
-                Managed the Salesforce instance for the Sales & Launch team, ensuring the team of 16 customer success
-                managers had current deadlines and statuses.
-              </li>
-              <li>
-                Managed ambiguity and inconsistencies surrounding the ad launch process while implementing process
-                improvements and working closely with related teams to streamline interdisciplinary workflows.
-              </li>
-              <li>Streamlined ad launch for major pharma, cutting proofreading time by 35 hours per ad.</li>
-              <li>
-                Lead weekly Sales conference calls with the 15-person sales team to ensure advertisements are delivered
-                on schedule.
-              </li>
-            </ul>
+
+          <!-- Riley School -->
+          <div class="entry">
+            <div class="logo-section">
+              <div class="logo-wrapper round"><img src="./assets/images/riley.jpg" alt="The Riley School logo" /></div>
+            </div>
+            <div class="details-section">
+              <div class="header-section">
+                <div class="title">
+                  <h3>The Riley School</h3>
+                  <span class="subtitle">Outreach &amp; Marketing Coordinator</span>
+                </div>
+                <div class="job-date text-secondary">July 2018 &ndash; July 2019</div>
+              </div>
+              <div class="description-section">
+                <ul>
+                  <li>
+                    Identified and implemented new marketing strategies to reach a wider audience and increase
+                    enrollment at The Riley School.
+                  </li>
+                  <li>
+                    Built a new website using Squarespace, HTML, and CSS and increased web traffic to the site by 530%.
+                  </li>
+                  <li>Organized outreach events and partnerships with local organizations to promote the school.</li>
+                  <li>Modernized the admissions process and improved the visual identity of the school.</li>
+                  <li>Designed a suite of 15 new advertisements and improved documentation for the launch schedule.</li>
+                  <li>
+                    Implemented HubSpot CMS and improved admissions process efficiency by reducing number of software
+                    dependencies from 7 to 3.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </details>
     </div>
 
     <!-- Education -->

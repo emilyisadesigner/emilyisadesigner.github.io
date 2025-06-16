@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Inter, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: var(--main-text);
   background-color: var(--bg-color);
 }
@@ -129,10 +129,15 @@ h1 {
 
 /* Experience */
 .experience,
+.experience .collapsed-entries,
 .education {
   display: flex;
   flex-direction: column;
   row-gap: 0.75rem;
+}
+
+.experience,
+.education {
   font-size: 0.75rem;
   line-height: 1rem;
 }
@@ -179,6 +184,12 @@ h1 {
   list-style-position: inside;
   margin: 0;
   padding: 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
 }
 
 /* PROJECTS */
